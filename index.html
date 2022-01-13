@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <h3>Registration</h3>
+    <form action="">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" placeholder="Enter your name">
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter a valid email address">
+        <br>
+        <label for="passcode">Password:</label><br>
+        <input type="password" id="passcode" placeholder="Enter your Password" maxlength="8" minlength="6">
+        <br>
+        <label for="cPasscode">Confirm Password:</label><br>
+        <input type="password" id="cPasscode" placeholder="Confirm your Password" maxlength="8" minlength="6">
+        <br>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" placeholder="Enter your Username">
+        <br>
+        <label for="phone">Phone number</label><br>
+        <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9-]{3}-[0-9-]{3}-[0-9-]{4}" >
+        <br>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" placeholder="Enter your Username">
+        <br>
+        <div>
+            <h3>Gender</h3>
+        </div>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="not">Prefer not to say</label>
+        <input type="radio" name="gender" id="not" value="not"><br>
+
+        <input type="submit" value="Register" id="submit">
+
+        
+    </form>
+
+</body>
+</html>
